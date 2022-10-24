@@ -18,7 +18,7 @@ class Person {
       return "Abaixo do Peso"
     } else if (this.calcImc() >= 18.5 && this.calcImc() < 25) {
       return "Peso Normal"
-    } else if (this.calcImc() >= 25 && this.calcIm() < 30) {
+    } else if (this.calcImc() >= 25 && this.calcImc() < 30) {
       return "Sobrepeso"
     } else {
       return 'Obesidade'
